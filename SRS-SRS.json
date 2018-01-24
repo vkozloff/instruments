@@ -1,0 +1,40 @@
+{
+  "DictionaryID": "344482eb-b784-4dd3-996f-068a8ceb2942",
+  "shortName": "SRS Questionnaire (adult)97",
+  "DerivedFrom": "",
+  "Name": "SRS Questionnaire (adult)",
+  "Description": "Social Responsiveness Scale",
+  "title": "SRS Questionnaire (adult)",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "Participant ID",
+      "description": "part_id",
+      "valueRange": [],
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1516813801655",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "description": "date-time",
+      "valueRange": [],
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    }
+  ]
+}
