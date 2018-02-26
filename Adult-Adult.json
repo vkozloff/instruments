@@ -1,0 +1,29 @@
+{
+  "DictionaryID": "5dc1e73f-b296-41f3-8384-226e2d60a9f0",
+  "shortName": "Adult Studies Questionnaire60",
+  "DerivedFrom": "",
+  "Name": "Adult Studies Questionnaire",
+  "Description": "Adapted from Gablab",
+  "title": "Adult Studies Questionnaire",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1519679489944",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "recruitment_method",
+      "description": "How did you find out about our study?",
+      "valueRange": [
+        "Department Website",
+        "QLAB Website",
+        "Word of Mouth"
+      ],
+      "renderType": "radio",
+      "notes": null
+    }
+  ]
+}
