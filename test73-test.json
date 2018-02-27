@@ -1,0 +1,26 @@
+{
+  "DictionaryID": "ec4393a0-2176-458f-9e54-bda91d9a526c",
+  "shortName": "test73",
+  "DerivedFrom": "",
+  "Name": "test",
+  "Description": "test",
+  "title": "test",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "random",
+      "description": "New field",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    }
+  ]
+}
