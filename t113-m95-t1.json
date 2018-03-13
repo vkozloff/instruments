@@ -1,0 +1,56 @@
+{
+  "DictionaryID": "b940baab-d96e-4c1e-abd7-2e8051770ee4",
+  "shortName": "t113-m95",
+  "DerivedFrom": "t113",
+  "Name": "t1",
+  "Description": "t1",
+  "title": "t1",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "type": "string",
+      "renderType": "text",
+      "description": "New field",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1520969693943",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1520969693943",
+      "type": "number",
+      "renderType": "number",
+      "description": "New number",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1520969729785",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1520969729785",
+      "description": "New boolean",
+      "valueRange": null,
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
