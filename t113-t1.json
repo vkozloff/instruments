@@ -1,0 +1,41 @@
+{
+  "DictionaryID": "e6c4dae6-3926-47bd-a230-73e628eec9de",
+  "shortName": "t113",
+  "DerivedFrom": "",
+  "Name": "t1",
+  "Description": "t1",
+  "title": "t1",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "description": "New field",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1520969693943",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1520969693943",
+      "description": "New number",
+      "valueRange": null,
+      "type": "number",
+      "renderType": "number",
+      "notes": null
+    }
+  ]
+}
