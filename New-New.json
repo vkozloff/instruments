@@ -1,0 +1,56 @@
+{
+  "DictionaryID": "2126704b-9fb2-41f2-a681-376aebe12c33",
+  "shortName": "New Instrument26",
+  "DerivedFrom": "",
+  "Name": "New Instrument",
+  "Description": "Tester",
+  "title": "New Instrument",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "description": "New field",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1520969553614",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1520969553614",
+      "description": "New number",
+      "valueRange": null,
+      "type": "number",
+      "renderType": "number",
+      "notes": null
+    },
+    {
+      "id": "new1520969554793",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1520969554793",
+      "description": "New boolean",
+      "valueRange": null,
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
