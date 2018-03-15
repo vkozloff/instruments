@@ -1,0 +1,43 @@
+{
+  "DictionaryID": "6efc11cb-28ff-4fd7-8088-fe37d87238bb",
+  "shortName": "New Instrument26-m87",
+  "DerivedFrom": "New Instrument26-m98",
+  "Name": "CELF 5 Screening Test",
+  "Description": "Clinical Evaluation of Language Fundmentals Screening Test",
+  "title": "CELF 5 Screening Test",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1521117367630",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1521117367630",
+      "description": "Total score",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1521117247356",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1521117247356",
+      "description": "Criterion met",
+      "valueRange": [
+        "At or above criterion",
+        "Below criterion"
+      ],
+      "renderType": "radio",
+      "notes": null
+    }
+  ]
+}
