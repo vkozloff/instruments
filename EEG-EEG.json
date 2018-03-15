@@ -1,0 +1,73 @@
+{
+  "DictionaryID": "9ec8ade8-e646-41b5-b2ac-4261dfbb2eab",
+  "shortName": "EEG Preparation55",
+  "DerivedFrom": "",
+  "Name": "EEG Preparation",
+  "Description": "EEG Preparation",
+  "title": "EEG Preparation",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1521119857533",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1521119857533",
+      "description": "Time spent to prepare EEG",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1521119875127",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1521119875127",
+      "description": "Experimenter initials",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1521119795713",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1521119795713",
+      "description": "Is impendence all green/ yellow?",
+      "valueRange": [
+        "Yes",
+        "No"
+      ],
+      "renderType": "radio",
+      "notes": null
+    },
+    {
+      "id": "new1521119774626",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1521119774626",
+      "description": "Notes",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "textarea",
+      "notes": null
+    }
+  ]
+}
