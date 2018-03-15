@@ -1,0 +1,201 @@
+{
+  "DictionaryID": "327da049-9688-48f5-9b29-2668a7f94ea4",
+  "shortName": "ctopp01-m40",
+  "DerivedFrom": "ctopp01-m24",
+  "Name": "CTOPP",
+  "Description": "Elision, Blending Words, and Nonword Repetition",
+  "title": "CTOPP",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": 9445,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 8225,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "individual"
+      ],
+      "filterElement": null,
+      "position": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 6679,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "CTOPdate"
+      ],
+      "filterElement": null,
+      "position": 3,
+      "name": "interview_date",
+      "type": "Date",
+      "renderType": "date",
+      "size": null,
+      "description": "Date on which the interview/genetic test/sampling/imaging/biospecimen was completed. MM/DD/YYYY",
+      "valueRange": null,
+      "notes": "Required field"
+    },
+    {
+      "id": 8171,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 26,
+      "name": "ctopp_el_rs",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Elision Raw score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 4477,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 30,
+      "name": "ctopp_el_ss",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Elision Standard score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 9165,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 51,
+      "name": "ctopp_bw_rs",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Blending Words Raw score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 4538,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 55,
+      "name": "ctopp_bw_ss",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Blending Words Standard score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 2901,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "ctopp_raw_score"
+      ],
+      "filterElement": "1",
+      "position": 109,
+      "name": "nr_raw",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "CTOPP NonWord Rep: Total Raw Score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521116694106",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 9,
+      "dataElementId": 9,
+      "name": "ctopp_nr",
+      "type": "string",
+      "renderType": "text",
+      "description": "CTOPP NonWord Rep: Standard Score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 1759,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 113,
+      "name": "ctop_normstbl",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "CTOPP: Norms table used",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521116902437",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 11,
+      "dataElementId": 11,
+      "name": "new1521116902437",
+      "description": "Administration Complete?",
+      "valueRange": [
+        "No",
+        "Yes"
+      ],
+      "renderType": "radio",
+      "notes": null
+    },
+    {
+      "id": 7194,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "CTOPcmnt"
+      ],
+      "filterElement": null,
+      "position": 115,
+      "name": "comments",
+      "type": "String",
+      "renderType": "text",
+      "size": 4000,
+      "description": "Comments about assessment",
+      "valueRange": null,
+      "notes": null
+    }
+  ]
+}
