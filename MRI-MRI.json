@@ -1,0 +1,28 @@
+{
+  "DictionaryID": "875262f1-b31f-4856-90e4-d42a6011b2c4",
+  "shortName": "MRI Safety Screener96",
+  "DerivedFrom": "",
+  "Name": "MRI Safety Screener",
+  "Description": "CBBI MRI Safety Screener",
+  "title": "MRI Safety Screener",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1521120195210",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1521120195210",
+      "description": "Complete?",
+      "valueRange": [
+        "No",
+        "Yes"
+      ],
+      "renderType": "radio",
+      "notes": null
+    }
+  ]
+}
