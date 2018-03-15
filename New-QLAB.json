@@ -1,0 +1,41 @@
+{
+  "DictionaryID": "654194b5-12a7-441c-a0a6-907e97cdf0b7",
+  "shortName": "New Instrument26-m54",
+  "DerivedFrom": "New Instrument26-m98",
+  "Name": "QLAB Studies Screening Form",
+  "Description": "Google Form (sent in email)",
+  "title": "QLAB Studies Screening Form",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "type": "string",
+      "renderType": "text",
+      "description": "New field",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1520969553614",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1520969553614",
+      "type": "number",
+      "renderType": "number",
+      "description": "New number",
+      "valueRange": null,
+      "notes": null
+    }
+  ]
+}
