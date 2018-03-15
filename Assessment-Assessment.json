@@ -1,0 +1,71 @@
+{
+  "DictionaryID": "117361e9-b753-4586-af53-f111245f4a79",
+  "shortName": "Assessment Scoring57",
+  "DerivedFrom": "",
+  "Name": "Assessment Scoring",
+  "Description": "Assessment Scoring",
+  "title": "Assessment Scoring",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1521135277550",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1521135277550",
+      "description": "First Scorer Initials",
+      "valueRange": [],
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1521135241883",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1521135241883",
+      "description": "First Scoring",
+      "valueRange": null,
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    },
+    {
+      "id": "new1521135279744",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1521135279744",
+      "description": "Second Scorer Initials",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1521135259650",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1521135259650",
+      "description": "Second Scoring",
+      "valueRange": null,
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
