@@ -1,0 +1,60 @@
+{
+  "DictionaryID": "65874e54-cf10-4e77-8e1f-191ae17b9272",
+  "shortName": "New Instrument26-m69",
+  "DerivedFrom": "New Instrument26-m95",
+  "Name": "CELF 5 Screening Test",
+  "Description": "Clinical Evaluation of Language Fundmentals Screening Test",
+  "title": "CELF 5 Screening Test",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1521117367630",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1521117367630",
+      "type": "string",
+      "renderType": "text",
+      "description": "Total score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521117247356",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1521117247356",
+      "renderType": "radio",
+      "description": "Criterion met",
+      "valueRange": [
+        "At or above criterion",
+        "Below criterion"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521117397077",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1521117397077",
+      "renderType": "radio",
+      "description": "Administration complete",
+      "valueRange": [
+        "No",
+        "Yes"
+      ],
+      "notes": null
+    }
+  ]
+}
