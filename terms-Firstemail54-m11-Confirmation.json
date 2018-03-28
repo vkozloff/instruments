@@ -1,0 +1,28 @@
+{
+  "DictionaryID": "4620726d-5b91-4560-848c-31d5967eaaf6",
+  "shortName": "First confirmation email54-m11",
+  "DerivedFrom": "First confirmation email54",
+  "Name": "Confirmation email 1",
+  "Description": "Confirms participant's participation in the study and the date/ time of their first visit",
+  "title": "Confirmation email 1",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522270732670",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522270732670",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "Email sent?",
+      "valueRange": [
+        "Yes"
+      ],
+      "notes": null
+    }
+  ]
+}
