@@ -1,0 +1,79 @@
+{
+  "DictionaryID": "706dd1d8-b992-48e4-847e-ad9ac1e0eaf5",
+  "shortName": "Adult Online Tasks27",
+  "DerivedFrom": "",
+  "Name": "Adult Online Tasks",
+  "Description": "LSL, SSL, TSL, VSL",
+  "title": "Adult Online Tasks",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522276111844",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522276111844",
+      "description": "LSL",
+      "valueRange": [
+        "Yes"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    },
+    {
+      "id": "new1522276113418",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1522276113418",
+      "description": "SSL",
+      "valueRange": [
+        "Yes"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    },
+    {
+      "id": "new1522276115077",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1522276115077",
+      "description": "TSL",
+      "valueRange": [
+        "Yes"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    },
+    {
+      "id": "new1522276116467",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1522276116467",
+      "description": "VSL",
+      "valueRange": [
+        "Yes"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
