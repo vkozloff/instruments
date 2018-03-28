@@ -1,0 +1,126 @@
+{
+  "DictionaryID": "c441364a-cf63-4661-8a29-0946d361d5bc",
+  "shortName": "flanker01-m82",
+  "DerivedFrom": "flanker01-m80",
+  "Name": "NIH Toolbox Flanker Test",
+  "Description": "NIH Toolbox Flanker Test",
+  "title": "NIH Toolbox Flanker Test",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": 8074,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "guid"
+      ],
+      "filterElement": null,
+      "position": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 3603,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "asd_child_id"
+      ],
+      "filterElement": null,
+      "position": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 7343,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "nihtbx_flanker_date"
+      ],
+      "filterElement": null,
+      "position": 3,
+      "name": "interview_date",
+      "type": "Date",
+      "renderType": "date",
+      "size": null,
+      "description": "Date on which the interview/genetic test/sampling/imaging/biospecimen was completed. MM/DD/YYYY",
+      "valueRange": null,
+      "notes": "Required field"
+    },
+    {
+      "id": 4179,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 6,
+      "name": "comments_misc",
+      "type": "String",
+      "renderType": "text",
+      "size": 4000,
+      "description": "Miscellaneous comments on study, interview, methodology relevant to this form data",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 7082,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "nihtbx_flanker_rawscore",
+        "nihtbx_demo_rescore_rawflanker"
+      ],
+      "filterElement": "1",
+      "position": 50,
+      "name": "nih_flanker_raw",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Flanker Raw Score",
+      "valueRange": "0::40;999",
+      "notes": "Raw score on Flanker subtest"
+    },
+    {
+      "id": "new1521118776678",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 6,
+      "dataElementId": 6,
+      "name": "new1521118776678",
+      "type": "string",
+      "renderType": "text",
+      "size": null,
+      "description": "Uncorrected Standard Score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1522271432251",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 7,
+      "dataElementId": 7,
+      "name": "new1522271432251",
+      "description": "Age-corrected standard score",
+      "valueRange": [],
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    }
+  ]
+}
