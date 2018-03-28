@@ -1,0 +1,28 @@
+{
+  "DictionaryID": "0c57f432-c36a-41ef-8af0-b89fa3d909cf",
+  "shortName": "Thank you email42",
+  "DerivedFrom": "",
+  "Name": "Thank you email",
+  "Description": "Thank participants for completing our study!",
+  "title": "Thank you email",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522281299870",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522281299870",
+      "description": "Email sent?",
+      "valueRange": [
+        "Complete"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
