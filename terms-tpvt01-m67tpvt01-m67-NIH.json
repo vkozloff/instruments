@@ -1,0 +1,123 @@
+{
+  "DictionaryID": "d6c7325d-e19a-4dad-accd-b1b19d0f7d7f",
+  "shortName": "tpvt01-m67",
+  "DerivedFrom": "tpvt01-m76",
+  "Name": "NIH Toolbox Picture Vocabulary",
+  "Description": "NIH Toolbox Picture Vocabulary",
+  "title": "NIH Toolbox Picture Vocabulary",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": 9138,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 4124,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 7537,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "nihtbx_picvocab_date"
+      ],
+      "filterElement": null,
+      "position": 3,
+      "name": "interview_date",
+      "type": "Date",
+      "renderType": "date",
+      "size": null,
+      "description": "Date on which the interview/genetic test/sampling/imaging/biospecimen was completed. MM/DD/YYYY",
+      "valueRange": null,
+      "notes": "Required field"
+    },
+    {
+      "id": "new1521118667975",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1521118667975",
+      "type": "string",
+      "renderType": "text",
+      "size": null,
+      "description": "Uncorrected Standard Score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1522271035679",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 5,
+      "dataElementId": 5,
+      "name": "new1522271035679",
+      "type": "string",
+      "renderType": "text",
+      "description": "Age-corrected Standard Score",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 8368,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "flag_cognition_vocabulary"
+      ],
+      "filterElement": "1",
+      "position": 414,
+      "name": "prob_admin",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Flagged for potentially problematic test administration",
+      "valueRange": null,
+      "notes": "1=Flagged"
+    },
+    {
+      "id": "new1522273541772",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 7,
+      "dataElementId": 7,
+      "name": "new1522273541772",
+      "description": "New checkbox",
+      "valueRange": [
+        "Administration Complete?"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
