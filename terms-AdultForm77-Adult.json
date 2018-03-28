@@ -1,0 +1,28 @@
+{
+  "DictionaryID": "2af4f2b6-e560-42b1-a9db-fe0de9975da8",
+  "shortName": "Adult Screening Form77",
+  "DerivedFrom": "",
+  "Name": "Adult Screening Form",
+  "Description": "On Google Drive",
+  "title": "Adult Screening Form",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522267980621",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522267980621",
+      "description": "New checkbox",
+      "valueRange": [
+        "Complete"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
