@@ -1,0 +1,254 @@
+{
+  "DictionaryID": "7e1ed26f-6c65-4407-8d44-875520ccf154",
+  "shortName": "kbit_ii01-m26",
+  "DerivedFrom": "kbit_ii01-m47",
+  "Name": "KBIT",
+  "Description": "Raw and Standard Scores",
+  "title": "KBIT",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": 5063,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 2940,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 4462,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 3,
+      "name": "interview_date",
+      "type": "Date",
+      "renderType": "date",
+      "size": null,
+      "description": "Date on which the interview/genetic test/sampling/imaging/biospecimen was completed. MM/DD/YYYY",
+      "valueRange": null,
+      "notes": "Required field"
+    },
+    {
+      "id": 2452,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 4,
+      "name": "interview_age",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Age in months at the time of the interview/test/sampling/imaging.",
+      "valueRange": null,
+      "notes": "Age is rounded to chronological month. If the research participant is 15-days-old at time of interview, the appropriate value would be 0 months. If the participant is 16-days-old, the value would be 1 month."
+    },
+    {
+      "id": 7233,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "comments_misc_kbit2"
+      ],
+      "filterElement": null,
+      "position": 6,
+      "name": "comments",
+      "type": "String",
+      "renderType": "text",
+      "size": 4000,
+      "description": "Comments about assessment",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 6994,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "q1_raw"
+      ],
+      "filterElement": "1",
+      "position": 129,
+      "name": "kbit_verb_score",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Verbal Raw Score = Celing - Errors",
+      "valueRange": "0::60; 999",
+      "notes": "999=NA/missing/NK"
+    },
+    {
+      "id": 2444,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "q2_raw"
+      ],
+      "filterElement": "1",
+      "position": 227,
+      "name": "kbit_matr_score",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Matrices Raw Score = Ceiling - Errors",
+      "valueRange": "0::50; 999; -9",
+      "notes": "999=NA/missing/NK; -9=Incomplete"
+    },
+    {
+      "id": 9532,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "q3_raw"
+      ],
+      "filterElement": "1",
+      "position": 326,
+      "name": "kbit_riddle_score",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Riddles Raw Score = Celing - Errors",
+      "valueRange": "0::48; 999",
+      "notes": "999=NA/missing/NK"
+    },
+    {
+      "id": 8715,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "stand_verb"
+      ],
+      "filterElement": "1",
+      "position": 328,
+      "name": "kbit_verbalstand_score",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Verbal Standard Score (Table B.1/B.2)",
+      "valueRange": "40::160; 999",
+      "notes": "999=NA/missing/NK"
+    },
+    {
+      "id": 9573,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "stand_nonverb"
+      ],
+      "filterElement": "1",
+      "position": 330,
+      "name": "kbit_nonverbalstand_score",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Nonverbal Standard Score (Table B.1/B.2)",
+      "valueRange": "40::160; 999",
+      "notes": "999=NA/missing/NK"
+    },
+    {
+      "id": 9229,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "raw_IQ"
+      ],
+      "filterElement": "1",
+      "position": 331,
+      "name": "kbit_iqsum_score",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Verbal Standard Score + Nonverbal Standard Score",
+      "valueRange": "80::320; 999",
+      "notes": "999=NA/missing/NK"
+    },
+    {
+      "id": 2665,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "stand_IQ"
+      ],
+      "filterElement": "1",
+      "position": 332,
+      "name": "kbit_iqstand_score",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "IQ Standard Score (Table B.1/B.2)",
+      "valueRange": "40::160; 999",
+      "notes": "999=NA/missing/NK"
+    },
+    {
+      "id": 7609,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 336,
+      "name": "completed",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "Checks if completed",
+      "valueRange": "0::3",
+      "notes": "0=No; 1=Yes; 2=Yes, lost; 3=Unverified"
+    },
+    {
+      "id": 5821,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 337,
+      "name": "comments_misc",
+      "type": "String",
+      "renderType": "text",
+      "size": 4000,
+      "description": "Miscellaneous comments on study, interview, methodology relevant to this form data",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1522274101404",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 15,
+      "dataElementId": 15,
+      "name": "new1522274101404",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "Administration Complete?",
+      "valueRange": [
+        "Yes"
+      ],
+      "notes": null
+    }
+  ]
+}
