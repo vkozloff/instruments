@@ -1,0 +1,125 @@
+{
+  "DictionaryID": "3cc515ed-236f-4ac0-a43f-a2640c7f61d5",
+  "shortName": "Adult Studies Questionnaire 231-m37",
+  "DerivedFrom": "Adult Studies Questionnaire 231-m77",
+  "Name": "Adult Studies Questionnaire",
+  "Description": "Adapted from Gablab",
+  "title": "Adult Studies Questionnaire",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "participant_id",
+      "type": "string",
+      "renderType": "text",
+      "description": "Participant ID",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1519765976633",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1519765976633",
+      "renderType": "radio",
+      "description": "How did you find out about our study?",
+      "valueRange": [
+        "Linguistics Department Website",
+        "QLAB Website ",
+        "Word of Mouth"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1519766044515",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "premature_or_not",
+      "renderType": "radio",
+      "description": "Were you born full term (39-40 weeks) or prematurely?",
+      "valueRange": [
+        "Full Term",
+        "Prematurely"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1519766167321",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 5,
+      "dataElementId": 5,
+      "name": "take_any_medications",
+      "renderType": "radio",
+      "description": "Do you regularly take any medication?",
+      "valueRange": [
+        "No",
+        "Yes"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1519766230895",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 6,
+      "dataElementId": 6,
+      "name": "type_of_medication_and_reason",
+      "type": "string",
+      "renderType": "textarea",
+      "description": "If yes, please list the medication and reason:",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1519766278987",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 7,
+      "dataElementId": 7,
+      "name": "medical_issues_and_concerns",
+      "type": "string",
+      "renderType": "textarea",
+      "description": "Please list any other major medical issues or concerns, including psychological conditions, major surgeries, or hospitalizations:",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1519766439348",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 8,
+      "dataElementId": 8,
+      "name": "new1519766439348",
+      "renderType": "radio",
+      "description": "To the best of your knowledge, did you experience any delays in motor development (e.g. sitting up, making first steps, holding objects)?     ",
+      "valueRange": [
+        "No",
+        "Yes"
+      ],
+      "notes": null
+    }
+  ]
+}
