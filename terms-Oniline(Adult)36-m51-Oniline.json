@@ -1,0 +1,75 @@
+{
+  "DictionaryID": "b1f8c40b-3368-466e-8448-5fe872dba75e",
+  "shortName": "Oniline Experiment (Adult)36-m51",
+  "DerivedFrom": "Oniline Experiment (Adult)36",
+  "Name": "Oniline Experiment (Adult)",
+  "Description": "4 tasks for adults",
+  "title": "Oniline Experiment (Adult)",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1521134095014",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1521134095014",
+      "renderType": "radio",
+      "description": "LSL",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134093006",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1521134093006",
+      "renderType": "radio",
+      "description": "SSL",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134091269",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1521134091269",
+      "renderType": "radio",
+      "description": "TSL",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134265021",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1521134265021",
+      "renderType": "radio",
+      "description": "VSL",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    }
+  ]
+}
