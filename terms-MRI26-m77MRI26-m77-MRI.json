@@ -1,0 +1,397 @@
+{
+  "DictionaryID": "8d61bc1d-9bfb-4170-bef7-51f1e2980bc0",
+  "shortName": "MRI26-m77",
+  "DerivedFrom": "MRI26-m30",
+  "Name": "MRI",
+  "Description": "MRI Tasks",
+  "title": "MRI",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522277260858",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522277260858",
+      "renderType": "radio",
+      "description": "Button",
+      "valueRange": [
+        "Left",
+        "Right"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134743649",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1521134743649",
+      "renderType": "radio",
+      "description": "Alice Task Order",
+      "valueRange": [
+        "1 first",
+        "2 first"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522279168400",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1522279168400",
+      "description": "Alice task list",
+      "valueRange": [
+        "1",
+        "2"
+      ],
+      "renderType": "radio",
+      "notes": null
+    },
+    {
+      "id": "new1521134802571",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 7,
+      "dataElementId": 7,
+      "name": "new1521134802571",
+      "renderType": "radio",
+      "description": "SL Task Order",
+      "valueRange": [
+        "ASL first",
+        "VSL first"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522279145350",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 5,
+      "dataElementId": 5,
+      "name": "new1522279145350",
+      "description": "Seed Number",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "text",
+      "notes": null
+    },
+    {
+      "id": "new1522277011369",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1522277011369",
+      "renderType": "radio",
+      "description": "Scan buddy?",
+      "valueRange": [
+        "NA (adult)",
+        "No",
+        "Yes"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522276380804",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 5,
+      "dataElementId": 5,
+      "name": "new1522276380804",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "T1w_MPR_vNav_setter",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134581304",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1521134581304",
+      "type": "boolean",
+      "renderType": "checkbox",
+      "description": "T1w_MPR_vNav",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1522276495093",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 7,
+      "dataElementId": 7,
+      "name": "new1522276495093",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "T2w_SPC_vNav_setter",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522276555624",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 8,
+      "dataElementId": 8,
+      "name": "new1522276555624",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "T2w_SPC_vNav",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522276596081",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 9,
+      "dataElementId": 9,
+      "name": "new1522276596081",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "ep2d_se_sms_abcd_ap",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522276645547",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 10,
+      "dataElementId": 10,
+      "name": "new1522276645547",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "ep2d_se_sms_abcd_pa",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134598498",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1521134598498",
+      "type": "boolean",
+      "renderType": "checkbox",
+      "description": "T1W_SPC",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1522277094985",
+      "required": "Required",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1522277094985",
+      "renderType": "radio",
+      "description": "First task",
+      "valueRange": [
+        "ASL",
+        "VSL"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134615935",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1521134615935",
+      "type": "boolean",
+      "renderType": "checkbox",
+      "description": "ep2d_bold_resting",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1522276822612",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 14,
+      "dataElementId": 14,
+      "name": "new1522276822612",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "ep2d_bold_sms_abcd",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134644723",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 5,
+      "dataElementId": 5,
+      "name": "new1521134644723",
+      "type": "boolean",
+      "renderType": "checkbox",
+      "description": "Alice_Run1",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521134642397",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 6,
+      "dataElementId": 6,
+      "name": "new1521134642397",
+      "type": "boolean",
+      "renderType": "checkbox",
+      "description": "Alice_Run2",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1522276331519",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1522276331519",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "AAHScout",
+      "valueRange": [
+        "Complete"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1521134640654",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 8,
+      "dataElementId": 8,
+      "name": "new1521134640654",
+      "type": "boolean",
+      "renderType": "checkbox",
+      "description": "VSL 1-4",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521134638729",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 9,
+      "dataElementId": 9,
+      "name": "new1521134638729",
+      "type": "boolean",
+      "renderType": "checkbox",
+      "description": "ASL 1-4",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521134635571",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 10,
+      "dataElementId": 10,
+      "name": "new1521134635571",
+      "type": "boolean",
+      "renderType": "checkbox",
+      "description": "DTI",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521134866668",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 11,
+      "dataElementId": 11,
+      "name": "new1521134866668",
+      "renderType": "radio",
+      "description": "New radio",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1521134715455",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 12,
+      "dataElementId": 12,
+      "name": "new1521134715455",
+      "type": "string",
+      "renderType": "textarea",
+      "description": "Notes",
+      "valueRange": null,
+      "notes": null
+    }
+  ]
+}
