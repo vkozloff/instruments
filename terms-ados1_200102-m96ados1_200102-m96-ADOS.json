@@ -1,0 +1,78 @@
+{
+  "DictionaryID": "bdcc2063-0d3d-4672-a5e9-95cf15f61cf0",
+  "shortName": "ados1_200102-m96",
+  "DerivedFrom": "ados1_200102-m92",
+  "Name": "ADOS Module 1",
+  "Description": "ADOS Module 1",
+  "title": "ADOS Module 1",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": 3565,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "GUID"
+      ],
+      "filterElement": null,
+      "position": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 6424,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "ID",
+        "IndividualID",
+        "Ados1_2001_SRC_Subject_ID",
+        "NDAR_SUBJECT_NUMBER",
+        "ind_id",
+        "measure_individual",
+        "individual"
+      ],
+      "filterElement": null,
+      "position": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 9133,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "ados_diagnosis",
+        "Ados1_2001_scoresumm_adosdiag",
+        "ADOS_Class",
+        "ADOS_OLD_ALG_CLASS",
+        "Orig_Algo_DX",
+        "ados_classif2",
+        "CSadosgdiag",
+        "adosgdiag",
+        "diagnosis_ados",
+        "diagnosis_ados",
+        "ad1dx"
+      ],
+      "filterElement": null,
+      "position": 106,
+      "name": "scoresumm_adosdiag",
+      "type": "String",
+      "renderType": "text",
+      "size": 255,
+      "description": "ADOS Diagnosis Classification",
+      "valueRange": null,
+      "notes": "MODULE 1: Autism = Few to no words overall total is 16 or higher, OR Some words overall total is 12 or higher; Autism spectrum = Few to no words overall total is 11 to 15, OR Some words total is 8 to 11; Non-spectrum = Few to no words overall total is 10 or lower, OR Some words overall total is 7 or lower; MODULE 2: Autism = Younger than 5 years overal total is 10 or higher, OR Aged 5 years or older overall total is 9 or higher; Autism spectrum = Younger than 5 years overall total is 7 to 9, OR Aged 5 years or older overall total is 8; Non-spectrum = Younger than 5 years overall total is 6 or lower, OR Aged 5 years or older overall total is 7 or lower 9; MODULE 3: Autism = Overall total is 9 or higher; Autism spectrum = Overall total is 7 or 8; Non-spectrum = Overall total is 6 or lower; MODULE 4: Autism = Communication total is 3 or higher, AND Social interaction total is 6 or higher, AND Communication + Social interaction total is 10 or higher; Autism spectrum = Communication total is 2 or higher, AND Social interaction total is 4 or higher, AND Communication + Social interaction total is 7 or higher, AND at least one of the following is true: Communication total is 2, Social interaction total is 4 or 5, Communication + Social interaction total is 7 to 9; Non-spectrum = At least one of the following is true: Communication total is 1 or lower, Social interaction total is 3 or lower, Communication + Social interaction total is 6 or lower 9 = Cannot be rated for some reason other than that listed above, such as if an examiner makes an error and does not administer a particular ADOS activity."
+    }
+  ]
+}
