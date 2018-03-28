@@ -1,0 +1,79 @@
+{
+  "DictionaryID": "4939ab62-72fd-45b6-9f20-01078df540a0",
+  "shortName": "Adult Online Tasks27-m63",
+  "DerivedFrom": "Adult Online Tasks27",
+  "Name": "Adult Online Tasks",
+  "Description": "LSL, SSL, TSL, VSL",
+  "title": "Adult Online Tasks",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522276111844",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522276111844",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "LSL",
+      "valueRange": [
+        "Yes"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522276113418",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1522276113418",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "SSL",
+      "valueRange": [
+        "Yes"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522276115077",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1522276115077",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "TSL",
+      "valueRange": [
+        "Yes"
+      ],
+      "notes": null
+    },
+    {
+      "id": "new1522276116467",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1522276116467",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "VSL",
+      "valueRange": [
+        "Yes"
+      ],
+      "notes": null
+    }
+  ]
+}
