@@ -1,0 +1,28 @@
+{
+  "DictionaryID": "c21bb895-e6b3-4d83-a489-ad2624298491",
+  "shortName": "Confirmation Email 352",
+  "DerivedFrom": "",
+  "Name": "Confirmation Email 3",
+  "Description": "Thank participant for completing online experiment and confirm the appointment for their MRI session",
+  "title": "Confirmation Email 3",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522281195141",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522281195141",
+      "description": "Email sent?",
+      "valueRange": [
+        "Complete"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
