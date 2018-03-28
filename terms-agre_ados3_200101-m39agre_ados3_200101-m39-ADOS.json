@@ -1,0 +1,88 @@
+{
+  "DictionaryID": "36549f7c-26f7-4c2c-ae2d-2bcbc3d9f9b1",
+  "shortName": "agre_ados3_200101-m39",
+  "DerivedFrom": "agre_ados3_200101-m62",
+  "Name": "ADOS Module 3",
+  "Description": "ADOS Module 3",
+  "title": "ADOS Module 3",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": 1448,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 3399,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 7902,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 57,
+      "name": "adosgdiag",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "ADOS Diagnosis Classification:",
+      "valueRange": "-2;0;1;2",
+      "notes": "-2=Other;0=Not Autistic;1=Autistic Spectrum;2=Autistic"
+    },
+    {
+      "id": 7483,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 58,
+      "name": "overalldiag",
+      "type": "String",
+      "renderType": "text",
+      "size": 250,
+      "description": "Overall Diagnosis:",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1522275011459",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 5,
+      "dataElementId": 5,
+      "name": "new1522275011459",
+      "type": "boolean",
+      "renderType": "radio",
+      "description": "Administration Complete?",
+      "valueRange": [
+        "Yes"
+      ],
+      "notes": null
+    }
+  ]
+}
