@@ -1,0 +1,266 @@
+{
+  "DictionaryID": "5ab7f8c6-24a5-4ae9-9171-466c44e5f514",
+  "shortName": "srs_adult03-m90",
+  "DerivedFrom": "srs_adult03-m60",
+  "Name": "Adult SRS",
+  "Description": "",
+  "title": "Adult SRS",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": 9994,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 1960,
+      "required": "Required",
+      "condition": null,
+      "aliases": [
+        "individual"
+      ],
+      "filterElement": null,
+      "position": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 2226,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "q21_imitate"
+      ],
+      "filterElement": "1",
+      "position": 44,
+      "name": "srs_2005_adultresearch_21",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "21. Is able to imitate others' actions and demeanor when it is socially appropriate to do so",
+      "valueRange": "1;2;3;4",
+      "notes": "1 = Not true; 2 = Sometimes true; 3 = Often true; 4 = Almost always true. REVERSE-SCORED ITEM",
+      "translation": []
+    },
+    {
+      "id": 2525,
+      "required": "Recommended",
+      "condition": "gender == 'F'",
+      "aliases": [
+        "female_total"
+      ],
+      "filterElement": null,
+      "position": 22,
+      "name": "srs_2005_female_rawscoreall",
+      "type": "String",
+      "renderType": "text",
+      "size": 50,
+      "description": "Total Raw Score",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 8900,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "male_raw1",
+        "male_awareness"
+      ],
+      "filterElement": "1",
+      "position": 89,
+      "name": "srs_2005_male_raw1",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Social Awareness Raw Score: Male",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 4179,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "male_raw2",
+        "male_cognition"
+      ],
+      "filterElement": "1",
+      "position": 90,
+      "name": "srs_2005_male_raw2",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Social Cognition Raw Score: Male",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 4724,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "male_raw3",
+        "male_communication"
+      ],
+      "filterElement": "1",
+      "position": 91,
+      "name": "srs_2005_male_raw3",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Social Communication Raw Score: Male",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 7801,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "male_raw4",
+        "male_mannerisms"
+      ],
+      "filterElement": "1",
+      "position": 92,
+      "name": "srs_2005_male_raw4",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Social Motivation Raw Score: Male",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 3757,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "male_raw5",
+        "male_motivation"
+      ],
+      "filterElement": "1",
+      "position": 93,
+      "name": "srs_2005_male_raw5",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Autistic Mannerisms Raw Score: Male",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 4938,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "female_awareness"
+      ],
+      "filterElement": "1",
+      "position": 94,
+      "name": "srs_2005_female_raw1",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Social Awareness Raw Score: Female",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 1637,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "female_cognition"
+      ],
+      "filterElement": "1",
+      "position": 95,
+      "name": "srs_2005_female_raw2",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Social Cognition Raw Score: Female",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 3971,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "female_communication"
+      ],
+      "filterElement": "1",
+      "position": 96,
+      "name": "srs_2005_female_raw3",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Social Communication Raw Score: Female",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 2880,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "female_mannerisms"
+      ],
+      "filterElement": "1",
+      "position": 97,
+      "name": "srs_2005_female_raw4",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Social Motivation Raw Score: Female",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    },
+    {
+      "id": 4951,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [
+        "female_motivation"
+      ],
+      "filterElement": "1",
+      "position": 98,
+      "name": "srs_2005_female_raw5",
+      "type": "Integer",
+      "renderType": "number",
+      "size": null,
+      "description": "Autistic Mannerisms Raw Score: Female",
+      "valueRange": null,
+      "notes": null,
+      "translation": []
+    }
+  ]
+}
