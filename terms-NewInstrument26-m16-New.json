@@ -1,0 +1,41 @@
+{
+  "DictionaryID": "c85385f3-c365-4918-a615-79477ec805f3",
+  "shortName": "New Instrument26-m16",
+  "DerivedFrom": "New Instrument26-m98",
+  "Name": "New Instrument",
+  "Description": "Tester",
+  "title": "New Instrument",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "type": "string",
+      "renderType": "text",
+      "description": "New field",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1520969553614",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1520969553614",
+      "type": "number",
+      "renderType": "number",
+      "description": "New number",
+      "valueRange": null,
+      "notes": null
+    }
+  ]
+}
