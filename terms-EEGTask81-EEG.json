@@ -1,0 +1,43 @@
+{
+  "DictionaryID": "45461f47-7574-40d8-acab-b8a19f2b3aa8",
+  "shortName": "EEG Auditory Task81",
+  "DerivedFrom": "",
+  "Name": "EEG Auditory Task",
+  "Description": "EEG Auditory Task",
+  "title": "EEG Auditory Task",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522275546954",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522275546954",
+      "description": "Complete?",
+      "valueRange": [
+        "Yes"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    },
+    {
+      "id": "new1522275548830",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1522275548830",
+      "description": "Notes",
+      "valueRange": null,
+      "type": "string",
+      "renderType": "textarea",
+      "notes": null
+    }
+  ]
+}
