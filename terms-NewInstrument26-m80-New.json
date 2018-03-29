@@ -1,0 +1,41 @@
+{
+  "DictionaryID": "81b0e816-155b-461c-8e15-62342d6427a7",
+  "shortName": "New Instrument26-m80",
+  "DerivedFrom": "New Instrument26-m16",
+  "Name": "New Instrument",
+  "Description": "To test BrainVerse features",
+  "title": "New Instrument",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new123",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new123",
+      "type": "string",
+      "renderType": "text",
+      "description": "New field",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": "new1520969553614",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1520969553614",
+      "type": "number",
+      "renderType": "number",
+      "description": "New number",
+      "valueRange": null,
+      "notes": null
+    }
+  ]
+}
