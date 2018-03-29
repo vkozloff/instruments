@@ -1,0 +1,79 @@
+{
+  "DictionaryID": "891e5a97-e5c6-4b6b-956b-5dc70ff9c82a",
+  "shortName": "First score assessments (adults)46",
+  "DerivedFrom": "",
+  "Name": "First score assessments (adults)",
+  "Description": "Score C-TOPP, KBIT, CELF Screener, and SRS",
+  "title": "First score assessments (adults)",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522281507335",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522281507335",
+      "description": "Score C-TOPP",
+      "valueRange": [
+        "Complete"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    },
+    {
+      "id": "new1522281513518",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 2,
+      "dataElementId": 2,
+      "name": "new1522281513518",
+      "description": "Score KBIT",
+      "valueRange": [
+        "Complete"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    },
+    {
+      "id": "new1522281512336",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 3,
+      "dataElementId": 3,
+      "name": "new1522281512336",
+      "description": "Score CELF Screener",
+      "valueRange": [
+        "Complete"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    },
+    {
+      "id": "new1522281509766",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 4,
+      "dataElementId": 4,
+      "name": "new1522281509766",
+      "description": "Score SRS",
+      "valueRange": [
+        "Complete"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
