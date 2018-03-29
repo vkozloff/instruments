@@ -1,0 +1,28 @@
+{
+  "DictionaryID": "dd72d641-7a6e-4249-80a5-c1d52decd10a",
+  "shortName": "Consent process14",
+  "DerivedFrom": "",
+  "Name": "Consent process",
+  "Description": "Was the consent process completed?",
+  "title": "Consent process",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": "new1522282375855",
+      "required": "Recommended",
+      "condition": null,
+      "aliases": null,
+      "filterElement": null,
+      "position": 1,
+      "dataElementId": 1,
+      "name": "new1522282375855",
+      "description": "Consent process complete?",
+      "valueRange": [
+        "Complete"
+      ],
+      "type": "boolean",
+      "renderType": "checkbox",
+      "notes": null
+    }
+  ]
+}
