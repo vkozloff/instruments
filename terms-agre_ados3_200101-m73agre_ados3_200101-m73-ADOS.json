@@ -1,0 +1,71 @@
+{
+  "DictionaryID": "8643bb90-5540-4774-a055-1d5ec1cbccf1",
+  "shortName": "agre_ados3_200101-m73",
+  "DerivedFrom": "agre_ados3_200101-m45",
+  "Name": "ADOS Module 3",
+  "Description": "ADOS Module 3",
+  "title": "ADOS Module 3",
+  "author": "vkozloff",
+  "fields": [
+    {
+      "id": 1448,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 1,
+      "name": "subjectkey",
+      "type": "GUID",
+      "renderType": "text",
+      "size": null,
+      "description": "The NDAR Global Unique Identifier (GUID) for research subject",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 3399,
+      "required": "Required",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 2,
+      "name": "src_subject_id",
+      "type": "String",
+      "renderType": "text",
+      "size": 20,
+      "description": "Subject ID how it's defined in lab/project",
+      "valueRange": null,
+      "notes": null
+    },
+    {
+      "id": 7902,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": "1",
+      "position": 57,
+      "name": "adosgdiag",
+      "type": "Integer",
+      "renderType": "radio",
+      "size": null,
+      "description": "ADOS Diagnosis Classification:",
+      "valueRange": "-2;0;1;2",
+      "notes": "-2=Other;0=Not Autistic;1=Autistic Spectrum;2=Autistic"
+    },
+    {
+      "id": 7483,
+      "required": "Recommended",
+      "condition": null,
+      "aliases": [],
+      "filterElement": null,
+      "position": 58,
+      "name": "overalldiag",
+      "type": "String",
+      "renderType": "text",
+      "size": 250,
+      "description": "Overall Diagnosis:",
+      "valueRange": null,
+      "notes": null
+    }
+  ]
+}
